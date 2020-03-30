@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#title,.right {
+    clear: both;
+}
+.right {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 50px;
+    height: auto;
+    width: 100%;
+}

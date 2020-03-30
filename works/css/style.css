@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* 基本（トップ）ページここから */
+body {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    width: 100%;
+}
+header {
+    background-color: #191970; 
+    height: 100px;
+}
+#logo {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 4em;
+    display: inline-block;
+}
+#button {
+    list-style-type: none;
+    display: grid;
+    color: #ffffff;
+    float: right;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 50px 50px;
+    height: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#button li {
+    background-color: #191970;
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+#button li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#button li:hover {
+    background-color: #b0c4ed;
+}
+#button li:visited {
+    background-color: #191970;
+}
+#left {
+    background-color: #66cdaa;
+    width: 33%;
+    height: 425px;
+    float: left;
+}
+#center {
+    background-color: #f0e68c;
+    width: 34%;
+    height: 425px;
+    display: inline-block;
+}
+#right {
+    background-color: #ffb6c1;
+    width: 33%;
+    height: 425px;
+    float: right;
+}
+footer {
+    background-color:#191970;
+    height: 50px;
+    color: #ffffff;
+}
+small {
+    float: right;
+    padding-top: 35px;
+    padding-right: 5px;
+}
+/* 基本(トップ)ページここまで */
+
+/* 会社概要ページここから */
+#subtitle {
+    background-color: #191970;
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.content {
+    font-size: 1.5em;
+    list-style-type: none;
+}
+.content li {
+    border-bottom: 1px solid #191970;
+    margin-bottom: 15px;
+    width: 700px;
+}
+/* 会社概要ページここまで */

@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+    background-color: #cab8d9;
+}
+header {
+    background-color: #b269a1;
+    color: #fafad2;
+    width: 100%;
+    height: 80px;
+    border: 8px outset #fafad2;
+    margin-left: -8px;
+}
+#title {
+    float: left;
+    font-size: 3.5em;
+}
+.right {
+    display: grid;
+    float: right;
+    grid-gap: 1rem;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px;
+    list-style-type: none;
+}
+.right li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5em;
+    width: auto;
+}
+.right li a {
+    color: #fafad2;
+    text-decoration: none;
+}
+.right li a:hover {
+    color: #eddc44;
+}
+#main {
+    clear: both;
+}
+.index {
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #fafad2;
+    border-bottom: 1px solid #6b395f;
+}
+#name {
+    font-family: "游明朝","serif";
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+#yomi {
+    color: #dfdfdf;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.article,ul {
+    margin-left: 50px;
+}
+.subtitle {
+    background-color: #ffffa3;
+}
+#works {
+    width: 100%;
+    height: 100%;
+}
+.description {
+    font-size: 1.2em;
+}
+.site {
+    font-size: 1.5em;
+    margin-top: 80px;
+}
+table {
+    border: 1px solid #6b395f;
+    font-size: 1.2em;
+}
+table tr td {
+    border: 1px solid #6b395f;
+}
+#works p a {
+    font-size: 1.5em;
+}
+#works img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+footer {
+    float: right;
+    font-size: 1.5em;
+    position: sticky;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+footer a {
+    color: #6b395f;
+    text-decoration: none;
+}

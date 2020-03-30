@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* 基本(トップ）ページここから */
+#logo,table,#left,#center,#right {
+    width: 100%;
+}
+footer {
+    clear: both;
+}
+#button {
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    height: auto;
+    width: 100%;
+}
+/* 基本（トップ）ページここまで */
+
+/* 会社概要ページここから */
+#subtitle {
+    margin-top: 320px;
+}
+.content {
+    font-size: large;
+}
+.content li {
+    width: 90%;
+}
+/* 会社概要ページここまで */
