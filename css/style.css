@@ -64,12 +64,11 @@ header {
 .subtitle {
     background-color: #ffffa3;
 }
-#works {
-    width: 100%;
-    height: 100%;
-}
 .description {
     font-size: 1.2em;
+}
+.img_zoom {
+    width: 400px;
 }
 .site {
     font-size: 1.5em;
